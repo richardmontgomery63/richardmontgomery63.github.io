@@ -35,8 +35,8 @@ export const Header = () => {
 
       <WordArt
         theme="radial"
-        fontFamily="comicsans"
-        className="text-4xl md:text-6xl"
+        fontFamily="impact"
+        className="text-6xl md:text-8xl text-center"
       >
         RICHYS SITE
       </WordArt>
