@@ -18,7 +18,12 @@ export const Header = () => {
 
       <img
         src="/img/yes.gif"
-        className="absolute h-20 left-10 top-10 rotate-[10deg]"
+        className="absolute h-20 left-1/6 top-20 rotate-[-15deg]"
+      />
+
+      <img
+        src="/img/fr.gif"
+        className="absolute h-20 right-1/6 top-20 rotate-[-15deg]"
       />
 
       <WordArt
