@@ -7,7 +7,7 @@ export const Home = () => {
   return (
     <section className="flex flex-col gap-20 items-center justify-center">
       <img src="/img/soyjack.gif" />
-      <img src="/img/awb.gif" className="w-1/3" />
+      <img src="/img/awb.gif" className="w-1/6" />
 
       <button
         style={{ fontFamily: 'comicsans' }}
