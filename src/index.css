@@ -1,0 +1,11 @@
+@import 'tailwindcss';
+
+@font-face {
+  font-family: 'impact';
+  src: url('/fonts/impact.ttf');
+}
+
+@font-face {
+  font-family: 'comicsans';
+  src: url('/fonts/comicsans.ttf');
+}
