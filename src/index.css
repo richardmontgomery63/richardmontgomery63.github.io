@@ -27,3 +27,16 @@
   background: #a5a4a4;
   cursor: pointer;
 }
+
+@keyframes slideAcross {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(-704px);
+  }
+}
+
+.slideacross {
+  animation: slideAcross 15s linear infinite;
+}
