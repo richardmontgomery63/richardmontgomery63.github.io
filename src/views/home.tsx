@@ -170,7 +170,7 @@ export const Home = () => {
         <div className="absolute top-1/6 left-0">
           <div className="flex items-center">
             <img src="/img/gaveup.webp" className="h-18 sm:h-30" />
-            <img src="/img/ninja.webp" className="h-18 sm:h-30" />
+            <img src="/img/bushsbest.webp" className="h-18 sm:h-30" />
           </div>
         </div>
 
