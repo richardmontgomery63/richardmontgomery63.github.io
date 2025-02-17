@@ -19,6 +19,22 @@ export const Background = (props: PropsWithChildren) => {
       ))}
 
       <section className="h-[350px] bg-[#000]" />
+      <section
+        className="h-[350px]"
+        style={{
+          backgroundImage: 'url("/bgs/stone.png")',
+          backgroundSize: '160px 160px',
+          imageRendering: 'pixelated',
+        }}
+      />
+      <section
+        className="h-[350px]"
+        style={{
+          backgroundImage: 'url("/bgs/stone.png")',
+          backgroundSize: '160px 160px',
+          imageRendering: 'pixelated',
+        }}
+      />
 
       <div className="absolute top-0 w-full">{props.children}</div>
     </div>

@@ -80,6 +80,14 @@ export const Home = () => {
           />
         </div>
 
+        <WordArt
+          fontFamily="comicsans"
+          theme="italicOutline"
+          className="absolute left-2/5 text-xl"
+        >
+          rich is the man with no debts
+        </WordArt>
+
         <img src="/img/shark.gif" className="absolute left-2/6 top-2/3" />
         <img src="/img/dolphin.gif" className="absolute right-2/6 top-2/3" />
         <img src="/img/bird1.gif" className="absolute left-1/4 top-1/4" />
@@ -110,7 +118,7 @@ export const Home = () => {
 
         <img src="/img/mermaid.gif" className="absolute right-1/2 top-1/5" />
 
-        <img src="/img/whip.gif" className="absolute left-1/7 bottom-0" />
+        <img src="/img/whip.gif" className="absolute left-1/7 bottom-0 h-10" />
       </section>
 
       <section className="h-[700px] relative">
@@ -151,6 +159,32 @@ export const Home = () => {
             <img src="/img/boardgames.gif" className="h-6" />
           </div>
         </div>
+      </section>
+
+      <section className="h-[700px] relative">
+        <img
+          src="/img/dino.webp"
+          className="h-40 absolute right-1/7 top-1/3 rotate-[22deg]"
+        />
+
+        <div className="absolute top-1/6 left-0">
+          <div className="flex items-center">
+            <img src="/img/gaveup.webp" className="h-18 sm:h-30" />
+            <img src="/img/ninja.webp" className="h-18 sm:h-30" />
+          </div>
+        </div>
+
+        <img src="/img/terrar.webp" className="absolute left-1/7 top-2/3" />
+        <img src="/img/belg.gif" className="absolute right-1/7 top-2/3" />
+        <img src="/img/canary.gif" className="absolute left-1/2 top-2/3" />
+        <img src="/img/finger.gif" className="absolute left-3/5 top-1/3" />
+        <a
+          className="absolute left-2/5 top-1/3 cursor-pointer"
+          download="poems.txt"
+          href="/poems.txt"
+        >
+          <img src="/img/download.gif" />
+        </a>
       </section>
     </Background>
   );
