@@ -102,15 +102,19 @@ export const Home = () => {
           className="w-10 absolute right-1/6 top-4/5"
         />
 
-        <img src="/img/sub.gif" className="absolute left-2/5 top-1/2" />
+        <img src="/img/sub.gif" className="absolute left-2/6 top-1/2" />
 
         <img src="/img/fish.gif" className="absolute left-1/5 top-1/4" />
 
         <img src="/img/orca.gif" className="absolute right-1/12 top-1/4" />
+
+        <img src="/img/mermaid.gif" className="absolute right-1/2 top-1/5" />
+
+        <img src="/img/whip.gif" className="absolute left-1/7 bottom-0" />
       </section>
 
       <section className="h-[700px] relative">
-        <img src="/img/angla.webp" className="w-30 absolute left-4/5 top-1/2" />
+        <img src="/img/angla.webp" className="w-30 absolute left-2/5 top-1/2" />
 
         <div
           style={{
@@ -127,6 +131,26 @@ export const Home = () => {
           src="/img/titanic.gif"
           className=" absolute bottom-[15px] right-2/6"
         />
+
+        <img src="/img/help.gif" className="absolute right-1/7 top-2/3" />
+
+        <div
+          className="absolute right-1/7 bottom-1/2"
+          style={{ fontFamily: 'impact' }}
+        >
+          <img src="/img/hobbies.gif" className="h-10" />
+          <div className="flex items-center justify-center gap-4">
+            <WordArt fontFamily="comicsans" theme="horizon">
+              Chess
+            </WordArt>
+            <WordArt fontFamily="comicsans" theme="superhero">
+              Email
+            </WordArt>
+          </div>
+          <div className="flex items-center justify-center mt-2">
+            <img src="/img/boardgames.gif" className="h-6" />
+          </div>
+        </div>
       </section>
     </Background>
   );
